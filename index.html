@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>NewWeb Registry</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>NewWeb Domain Registry</h1>
+    <p>Decentralized alt-web using <code>web://</code> domains.</p>
+  </header>
+
+  <section id="register">
+    <h2>Register a domain</h2>
+    <p>Submit your <code>web://</code> domain and source code via GitHub:</p>
+    <a href="https://github.com/yourusername/newweb-registry/issues/new?template=domain-request.md" target="_blank" class="btn">
+      Submit via GitHub Issues
+    </a>
+  </section>
+
+  <section id="browse">
+    <h2>Explore Registered Sites</h2>
+    <input type="text" id="search" placeholder="Search domains..." autocomplete="off" />
+    <ul id="results"></ul>
+  </section>
+
+  <footer>
+    <p><code>web://</code> is a community experiment. No backend. Just source.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
