@@ -1,0 +1,70 @@
+:root {
+  --bg: #fdfdfd;
+  --fg: #222;
+  --accent: #005aff;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 2rem;
+  background: var(--bg);
+  color: var(--fg);
+  line-height: 1.5;
+  max-width: 720px;
+  margin-inline: auto;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  font-size: 1.25rem;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--accent);
+  color: white;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+input[type="text"] {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+li {
+  background: white;
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #eee;
+}
+
+li strong {
+  display: block;
+  font-size: 1rem;
+}
+
+footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #666;
+}
